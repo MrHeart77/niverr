@@ -233,7 +233,7 @@
   });
   naoBtn.addEventListener('touchstart',e=>{e.preventDefault();if(!nInit){naoBtn.style.position='absolute';nInit=true;}moveNao();});
 
-  const tracks=["musica1.mp3","musica2.mp3","musica3.mp3","musica4.mp3","musica5.mp3","musica6.mp3", "musica7.mp3"];
+  const tracks=["musica1.mp3","musica2.mp3","musica3.mp3","musica4.mp3","musica6.mp3","loversrock.mp3", "musica7.mp3"];
   let cur=0;const aud=document.getElementById('aud');const playBtn=document.getElementById('playBtn');
   aud.src=tracks[cur];
   const noteSyms=['♩','♪','♫','♬'];let noteIv=null;
